@@ -14,15 +14,15 @@ anim = animator.Animator(mandelbrot_func, start_frame, start_frame, 20, x_offset
 anim.make_animation()
 anim.run()
 """
-mand_func = mand.mandelbrot_colorfult
+mand_func = mand.julia
 
 RANGE = 0.125 #0.0000000002
 
 PIXELS = 500
 
-X_OFFSET = -0.7151
+X_OFFSET = -0.35
 
-Y_OFFSET = -0.2451
+Y_OFFSET = 0.25
 
 factory = fractal.Fractal_Colorful(
     mand_func, 
